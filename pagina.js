@@ -5,7 +5,6 @@ fetch("http://localhots:3000/funcionarios",
 
 
 function exibe(json){
-    for(i=0;i<json.lenth;i++){
-        
+    for(i=0;i<json.lenth;i++){  
     }
 }
