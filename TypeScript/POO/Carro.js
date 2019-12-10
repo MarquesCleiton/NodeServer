@@ -10,7 +10,7 @@ var Carro = /** @class */ (function () {
             console.log("O carro da placa: " + this.placa + ", do modelo: " + this.modelo + ", do ano: " + this.ano + " ta andando");
         }
         else {
-            console.log("O carro está desligado");
+            console.log("O carro está desligado, LIGUE!!!");
         }
     };
     Carro.prototype.parar = function () {
@@ -18,7 +18,7 @@ var Carro = /** @class */ (function () {
             console.log("O carro do ano " + this.ano + ", do modelo" + this.modelo + " do ano " + this.ano + " ta parando!");
         }
         else {
-            console.log("O carro está desligado");
+            console.log("O carro está desligado, LIGUE!!!");
         }
     };
     Carro.prototype.ligar = function () {
@@ -27,7 +27,7 @@ var Carro = /** @class */ (function () {
             console.log("Ligando...");
         }
         else {
-            console.log("O carro já esta ligado!!!");
+            console.log("O carro JÁ esta ligado!!!");
         }
     };
     Carro.prototype.desligar = function () {
@@ -36,7 +36,7 @@ var Carro = /** @class */ (function () {
             this.ligado = false;
         }
         else {
-            console.log("O carro já esta desligado!!!");
+            console.log("O carro JÁ esta desligado!!!");
         }
     };
     return Carro;
